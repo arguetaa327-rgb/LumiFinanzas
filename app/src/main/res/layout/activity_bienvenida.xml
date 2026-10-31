@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollBienvenida"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_bienvenida_lumi"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- MARCA -->
+        <LinearLayout
+            android:id="@+id/encabezadoBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:background="@drawable/fondo_logo_bienvenida"
+                android:gravity="center"
+                android:text="✦"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="LUMI FINANZAS"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08" />
+
+        </LinearLayout>
+
+        <!-- LOGO CENTRAL -->
+        <FrameLayout
+            android:id="@+id/logoCentralBienvenida"
+            android:layout_width="176dp"
+            android:layout_height="176dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/fondo_logo_bienvenida"
+            android:elevation="8dp">
+
+            <ImageView
+                android:layout_width="83dp"
+                android:layout_height="83dp"
+                android:layout_gravity="center"
+                android:contentDescription="Logo de LumiFinanzas"
+                android:src="@drawable/ic_wallet"
+                android:tint="#FFFFFF" />
+
+        </FrameLayout>
+
+        <!-- MENSAJE PRINCIPAL -->
+        <TextView
+            android:id="@+id/tituloBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Haz brillar tu futuro financiero."
+            android:textColor="#FFFFFF"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subtituloBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Cada quetzal cuenta. Cada meta importa."
+            android:textColor="#D1C6EA"
+            android:textSize="15sp" />
+
+        <!-- TARJETAS FINANCIERAS -->
+        <LinearLayout
+            android:id="@+id/tarjetasBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:orientation="horizontal">
+
+            <!-- CONTROL DE GASTOS -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="148dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/fondo_tarjeta_bienvenida"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="Control de gastos"
+                    android:src="@drawable/ic_estadisticas"
+                    android:tint="#6BE4B7" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Controla tus gastos"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="Toma mejores decisiones."
+                    android:textColor="#C7BCE4"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <!-- METAS -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="148dp"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/fondo_tarjeta_bienvenida"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="Metas de ahorro"
+                    android:src="@drawable/ic_metas"
+                    android:tint="#F7C978" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Cumple tus metas"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="Convierte sueños en logros."
+                    android:textColor="#C7BCE4"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- BOTÓN PRINCIPAL -->
+        <Button
+            android:id="@+id/btnComenzarBienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/fondo_boton_bienvenida"
+            android:backgroundTint="@null"
+            android:text="Comenzar mi experiencia  →"
+            android:textAllCaps="false"
+            android:textColor="#21143F"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- PIE DE PÁGINA -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="TU DINERO  ·  TUS METAS  ·  TU FUTURO"
+            android:textColor="#B6A6DA"
+            android:textSize="11sp"
+            android:letterSpacing="0.08" />
+
+    </LinearLayout>
+
+</ScrollView>

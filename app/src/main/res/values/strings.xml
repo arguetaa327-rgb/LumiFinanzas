@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LumiFinanzas</string>
+    <string name="titulo_app">✦ LumiFinanzas</string>
+    <string name="subtitulo_app">Tu dinero, tus metas</string>
+    <string name="saldo_disponible">Saldo disponible</string>
+    <string name="ingresos">Ingresos</string>
+    <string name="gastos">Gastos</string>
+    <string name="registrar_movimiento">+ Registrar movimiento</string>
+    <string name="movimientos_recientes">Movimientos recientes</string>
+    <string name="monto_inicial">Q 0.00</string>
+    <string name="mensaje_finanzas">Controla cada paso de tus finanzas</string>
+    <string name="sin_movimientos">Aún no tienes movimientos registrados.</string>
+    <string name="nuevo_movimiento">✦ Nuevo movimiento</string>
+</resources>
